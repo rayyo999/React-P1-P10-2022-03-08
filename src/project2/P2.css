@@ -1,0 +1,35 @@
+.header-p2 {
+    text-align: center;
+    background: black;
+    color: aliceblue;
+}
+.header-p2 > h2{
+    padding: 10px;
+}
+.header-p2  button{
+    height: 45px;
+    width: 150px;
+    margin: 6px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: solid;
+    position: relative;
+}
+.header-p2 .email-icon {
+    width: 20px;
+    position: absolute;
+    left: 25px;
+    top: 11px;
+}
+.header-p2 .phone-icon {
+    width: 20px;
+    position: absolute;
+    left: 25px;
+    top: 7.5px;
+}
+.header-p2 span {
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    font-size: 20px;
+}
