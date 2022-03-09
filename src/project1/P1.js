@@ -6,7 +6,7 @@ import Footer from "./components/Footer"
 
 const P1 = () => {
     return (
-        <div>
+        <div className="p1-body">
             <Header />
             <Main />
             <Footer />

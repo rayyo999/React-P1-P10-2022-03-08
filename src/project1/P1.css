@@ -1,4 +1,7 @@
-
+.p1-body {
+    max-width: 500px;
+    margin: auto;
+}
 .nav-p1 {
     display: flex;
     align-items: center;

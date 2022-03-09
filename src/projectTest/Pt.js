@@ -6,7 +6,7 @@ import "./Pt.css"
 
 const Pt = () => {
     return(
-        <div>
+        <div className="pt-body">
             <Header />
             <Main />            
             <Footer />

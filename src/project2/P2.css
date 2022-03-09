@@ -1,3 +1,8 @@
+.p2-body {
+    max-width: 500px;
+    margin: auto;
+}
+
 .header-p2 {
     text-align: center;
     background-color: rgb(26, 22, 26);
