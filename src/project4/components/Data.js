@@ -1,4 +1,4 @@
-export const Data = [
+export const data = [
     {
         id:1,
         imgUrl:"https://picsum.photos/id/27/200/300",

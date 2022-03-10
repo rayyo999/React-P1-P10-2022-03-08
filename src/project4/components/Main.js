@@ -1,12 +1,12 @@
 import React from "react";
 import Card from "./Card";
-import { Data } from "./Data";
+import { data } from "./data";
 
 const Main = () => {
     return (
         <main className="main-p4">
         {
-            Data.map(item => {
+            data.map(item => {
                 return <Card key={item.id} info={item}/>
             })
         }

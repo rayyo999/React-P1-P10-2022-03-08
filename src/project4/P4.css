@@ -33,6 +33,7 @@
 .card-p4 > .info-p4 {
     padding: 20px;
     margin-left: 210px;
+    min-width: 300px;
 }
 .info-p4 > i {
     color: red;

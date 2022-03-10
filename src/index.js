@@ -11,6 +11,8 @@ import P2 from "./project2/P2";
 import P3 from "./project3/P3";
 //project4
 import P4 from "./project4/P4";
+//project5
+import P5 from "./project5/P5";
 
 
 //projectTest
@@ -27,3 +29,6 @@ ReactDOM.render(<P3 />, document.getElementById("project3"));
 
 //project4
 ReactDOM.render(<P4 />, document.getElementById("project4"));
+
+//project5
+ReactDOM.render(<P5 />, document.getElementById("project5"));
