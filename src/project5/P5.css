@@ -53,16 +53,13 @@
     justify-content: center;
     position: relative;
 }
-.output-p5 > .topText {
+.output-p5 > .topText, .bottomText {
     position: absolute;
     color: beige;
     z-index: 1;
 }
 .output-p5 > .bottomText {
-    position: absolute;
     bottom: 0;
-    color: beige;
-    z-index: 1;
 }
 .output-p5 > img {
     width: 400px;
