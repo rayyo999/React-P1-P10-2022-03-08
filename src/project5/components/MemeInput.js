@@ -7,7 +7,8 @@ const MemeInput = ({memeInput, setrandomUrl}) => {
     const randomNumber = Math.floor(Math.random() * memeArray.length);
     const randomUrl = memeArray[randomNumber].url;
 
-    function getText_setUrl(){
+    function getText_setUrl(e){
+        e.preventDefault();
         memeInput(()=>{
             return {
                 topText:topText, buttomText:buttomText
@@ -26,7 +27,7 @@ const MemeInput = ({memeInput, setrandomUrl}) => {
     }
     
     return (
-        <div className="form-p5">
+        <form className="form-p5">
             <div className="input">
                 <label htmlFor="A"></label>
                 <input type="text" id="A" placeholder="Top text" value={topText} onChange={setTopText} />
@@ -34,7 +35,7 @@ const MemeInput = ({memeInput, setrandomUrl}) => {
                 <input type="text" id="B" placeholder="Buttom text" value={buttomText} onChange={setButtomText} />
             </div>
             <button id="submitBtn" onClick={getText_setUrl}>Get a new meme image</button>
-        </div>
+        </form>
     
     )
 }

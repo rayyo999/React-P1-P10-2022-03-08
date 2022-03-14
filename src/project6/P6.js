@@ -4,7 +4,9 @@ import Main from "./components/Main";
 
 const P6 = () => {
     return (
-        <Main />
+        <div className="body-p6">
+            <Main />
+        </div>
     )
 }
 export default P6

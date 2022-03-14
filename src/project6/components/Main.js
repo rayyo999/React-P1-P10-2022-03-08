@@ -17,11 +17,11 @@ const Main = () => {
                     }
                     newArray.push(updateBox);
 
-                    //const on = currentBox.on;-------------------------------???why can work
+                    //const on = currentBox.on;
                     //currentBox.on = !on;
                     // newArray.push(currentBox)
 
-                    // currentBox.on = !currentBox.on;-------------------------------???why can work
+                    // currentBox.on = !currentBox.on;
                     // newArray.push(currentBox)
                 }
                 else{
@@ -39,7 +39,7 @@ const Main = () => {
     })
     
     return (
-        <div>{listBox}</div>
+        <main>{listBox}</main>
     )
 }
 export default Main
